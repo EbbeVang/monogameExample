@@ -43,6 +43,9 @@ namespace Game2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 2ed9783... l
             creep.mediator = mediator;
 =======
           
@@ -51,12 +54,15 @@ namespace Game2
 =======
            
 >>>>>>> parent of 3510b6c... creep class
+<<<<<<< HEAD
 =======
            
 >>>>>>> parent of 3510b6c... creep class
 =======
            
 >>>>>>> parent of 3510b6c... creep class
+=======
+>>>>>>> parent of 2ed9783... l
 
 
             //give all mediator
