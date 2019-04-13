@@ -41,8 +41,12 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Creep\Creep.cs" />
     <Compile Include="GameHolder.cs" />
+=======
+    <Compile Include="gameLogic\Direction.cs" />
+>>>>>>> 069c5950587e6f127dc233cb76e02cca750a9d50
     <Compile Include="gameLogic\IMediator.cs" />
     <Compile Include="gameLogic\Mediator.cs" />
     <Compile Include="Items\HealthBoost.cs" />

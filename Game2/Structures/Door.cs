@@ -26,7 +26,7 @@ namespace Game2.Structures
         }
         public override void Load()
         {
-            defaultDoor = GameHolder.Game.Content.Load<Texture2D>("Doors/closed_door");
+            defaultDoor = Mediator.Game.Content.Load<Texture2D>("Doors/closed_door");
         }
 
 
@@ -54,7 +54,7 @@ namespace Game2.Structures
             x = random.Next(0, 400);
             y = random.Next(0, 400);
             
-            HealthBoost ranHealthBoost = new HealthBoost(60,x,y);
+            HealthBoost ranHealthBoost = new HealthBoost(60,x,y,mediator);
             ranHealthBoost.Load();
             itemToBeAdded.Add(ranHealthBoost);
             Debug.WriteLine("HB added");

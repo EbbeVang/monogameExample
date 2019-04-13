@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Game2
 {
-    /// <summary>
+    /// <summary>C:\Users\gusta\source\repos\monogameExample\Game2\gameLogic\Mediator.cs
     /// This is the main type for your game.
     /// </summary>
     public class GameMain : Game
@@ -32,16 +32,21 @@ namespace Game2
             
             graphics = new GraphicsDeviceManager(this);
             room = new Room(800, 480, mediator);
-            GameHolder.Game = this;
+            Mediator.Game = this;
             Content.RootDirectory = "Content";
             mediator = new Mediator(allObjects, itesmToBeAdded, player, room, creep);
             room.mediator = mediator;
             room.addToAllObjects();
-            allObjects.Add(new HealthBoost(60, 60, 60));
+            allObjects.Add(new HealthBoost(60, 60, 60, mediator));
             allObjects.Add(player);
             allObjects.Add(creep);
             player.mediator = mediator;
+<<<<<<< HEAD
             creep.mediator = mediator;
+=======
+          
+           
+>>>>>>> 069c5950587e6f127dc233cb76e02cca750a9d50
 
 
             //give all mediator
@@ -118,6 +123,13 @@ namespace Game2
             }
 
             allObjects.AddRange(itesmToBeAdded);
+
+            foreach (var gameObject in itesmToBeAdded)
+            {
+                gameObject.Load();
+            }
+
+            itesmToBeAdded.Clear();
 
             base.Update(gameTime);
         }

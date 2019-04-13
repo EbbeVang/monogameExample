@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
+using Game2.gameLogic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -21,11 +22,9 @@ namespace Game2
         
       
 
-        public HealthBoost(int hpPlus, int x, int y)
+        public HealthBoost(int hpPlus, int x, int y, Mediator mediator) : base(x,y,mediator)
         {
             this.hpPlus = hpPlus;
-            this.X = x;
-            this.Y = y;
             this.hitbox = new Rectangle(this.X, this.Y, 32, 32);
             
         }
@@ -52,8 +51,8 @@ namespace Game2
 
         public override void Load()
         {
-            filledHpPotion = GameHolder.Game.Content.Load<Texture2D>("items/ruby_old");
-            emptyHpPotion = GameHolder.Game.Content.Load<Texture2D>("items/white_old");
+            filledHpPotion = Mediator.Game.Content.Load<Texture2D>("items/ruby_old");
+            emptyHpPotion = Mediator.Game.Content.Load<Texture2D>("items/white_old");
         }
 
         public override void intersects(GameObject other)

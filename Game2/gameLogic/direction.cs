@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game2
+namespace Game2.gameLogic
 {
-    public static class GameHolder
+     public enum Direction
     {
-        public static GameMain Game { get; set; }
-    }
+    
+        NORTH, SOUTH, EAST, WEST
+    
+}
 }

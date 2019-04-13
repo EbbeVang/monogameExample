@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Game2.gameLogic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -14,16 +15,15 @@ namespace Game2.Structures
         private Texture2D defaultWall;
      
 
-        public Wall ( int x, int y)
+        public Wall ( int x, int y, Mediator mediator) : base(mediator,x,y)
         {
-            this.X = x;
-            this.Y = y; 
+           
             this.hitbox = new Rectangle(this.X,this.Y, 32,32);
         }
 
         public override void Load()
         {
-           defaultWall = GameHolder.Game.Content.Load<Texture2D>("wall/brick_gray_0");
+           defaultWall = Mediator.Game.Content.Load<Texture2D>("wall/brick_gray_0");
         }
 
 
