@@ -41,11 +41,15 @@ namespace Game2
             player.mediator = mediator;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             creep.mediator = mediator;
 =======
           
            
 >>>>>>> 069c5950587e6f127dc233cb76e02cca750a9d50
+=======
+           
+>>>>>>> parent of 3510b6c... creep class
 =======
            
 >>>>>>> parent of 3510b6c... creep class
