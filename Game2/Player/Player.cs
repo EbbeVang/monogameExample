@@ -15,7 +15,7 @@ namespace Game2.Player
     class Player : GameObject
 
     {
-
+        //hejad
         private Texture2D playerPicture;
         private int movementspeed = 2;
         private int WIDTH = 32;
@@ -187,11 +187,13 @@ namespace Game2.Player
             
 
             KeyboardState key = Keyboard.GetState();
+
+
             if (key.IsKeyDown(Keys.Space))
             {
 
 
-                if ( lastShot > cooldown)
+                if (lastShot > cooldown)
                 {
                     lastShot = 0;
                     //https://stackoverflow.com/questions/25613008/how-to-toggle-a-key-press Det her kunne være et fix!
