@@ -40,6 +40,7 @@ namespace Game2
             allObjects.Add(player);
             player.mediator = mediator;
 <<<<<<< HEAD
+<<<<<<< HEAD
           
            
 =======
@@ -62,6 +63,10 @@ namespace Game2
            
 >>>>>>> parent of 3510b6c... creep class
 >>>>>>> parent of f85985e... creep
+=======
+          
+           
+>>>>>>> parent of 6bc3ede... Merge branch 'master' of https://github.com/Gustavwk/monogameExample
 
 
             //give all mediator

@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +58,8 @@
     <Compile Include="GameHolder.cs" />
 =======
 >>>>>>> parent of f85985e... creep
+=======
+>>>>>>> parent of 6bc3ede... Merge branch 'master' of https://github.com/Gustavwk/monogameExample
     <Compile Include="gameLogic\Direction.cs" />
     <Compile Include="gameLogic\IMediator.cs" />
     <Compile Include="gameLogic\Mediator.cs" />
