@@ -39,30 +39,8 @@ namespace Game2
             allObjects.Add(new HealthBoost(60, 60, 60, mediator));
             allObjects.Add(player);
             player.mediator = mediator;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 2ed9783... l
-            creep.mediator = mediator;
-=======
           
            
->>>>>>> 069c5950587e6f127dc233cb76e02cca750a9d50
-=======
-           
->>>>>>> parent of 3510b6c... creep class
-<<<<<<< HEAD
-=======
-           
->>>>>>> parent of 3510b6c... creep class
-=======
-           
->>>>>>> parent of 3510b6c... creep class
-=======
->>>>>>> parent of 2ed9783... l
 
 
             //give all mediator

@@ -41,27 +41,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <Compile Include="Creep\Creep.cs" />
-=======
->>>>>>> parent of 3510b6c... creep class
-=======
->>>>>>> parent of 3510b6c... creep class
-=======
->>>>>>> parent of 3510b6c... creep class
-=======
-    <Compile Include="Creep\Creep.cs" />
-=======
->>>>>>> parent of 3510b6c... creep class
->>>>>>> parent of 2ed9783... l
-    <Compile Include="GameHolder.cs" />
-=======
     <Compile Include="gameLogic\Direction.cs" />
->>>>>>> 069c5950587e6f127dc233cb76e02cca750a9d50
     <Compile Include="gameLogic\IMediator.cs" />
     <Compile Include="gameLogic\Mediator.cs" />
     <Compile Include="Items\HealthBoost.cs" />
