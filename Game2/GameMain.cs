@@ -49,6 +49,9 @@ namespace Game2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of f85985e... creep
 =======
 >>>>>>> parent of f85985e... creep
             creep.mediator = mediator;
@@ -66,11 +69,14 @@ namespace Game2
            
 >>>>>>> parent of 3510b6c... creep class
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f85985e... creep
 =======
           
            
 >>>>>>> parent of 6bc3ede... Merge branch 'master' of https://github.com/Gustavwk/monogameExample
+=======
+>>>>>>> parent of f85985e... creep
 =======
 >>>>>>> parent of f85985e... creep
 
