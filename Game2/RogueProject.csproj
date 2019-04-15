@@ -43,10 +43,13 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
     <Compile Include="Creep\Creep.cs" />
+=======
+>>>>>>> parent of 3510b6c... creep class
 =======
 >>>>>>> parent of 3510b6c... creep class
 =======
